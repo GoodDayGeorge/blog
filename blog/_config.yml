@@ -8,7 +8,7 @@ subtitle: Hello, everyone!
 description: GoodDay
 keywords: Life
 author: George Zhu
-language: zh
+language: zh-Hans
 timezone: Asia/Shanghai
 
 # URL
@@ -72,8 +72,10 @@ pagination_dir: page
 
 # Extensions
 ## Plugins: https://hexo.io/plugins/
+plugins: hexo-generate-feed
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: next
+#landscape
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
