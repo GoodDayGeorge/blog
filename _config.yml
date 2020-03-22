@@ -83,3 +83,10 @@ deploy:
   repo: https://github.com/GoodDayGeorge/GoodDayGeorge.github.io.git
   type: git
   branch: master
+
+# Search
+search:
+  path: search.xml
+  field: post # post | page | all
+  format: html # html | raw(Markdown) | excerpt | more
+  limit: 10000
